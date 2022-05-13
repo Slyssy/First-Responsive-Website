@@ -161,12 +161,9 @@ p {
     transition: ease all 1s;
   }
 }
-
-.section-1 {
+.section-3 {
   grid-column: span 2;
-  transition: ease all 1s;
 }
-
 @media (min-width: 992px) {
   main {
     grid-template-columns: repeat(3, 1fr);
