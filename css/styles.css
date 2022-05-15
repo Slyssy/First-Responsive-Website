@@ -137,11 +137,10 @@ p {
 .title-bar {
   height: 1.5em;
   width: 60%;
+  transform: rotate(-180deg);
+  transition: ease all 1s;
 }
 
-.magic {
-  display: none;
-}
 @media (min-width: 576px) {
   /* %Element Selectors */
   h1 {
@@ -188,6 +187,10 @@ p {
   }
   .section-3 {
     grid-column: span 2;
+  }
+  .title-bar {
+    transform: rotate(180deg);
+    transition: ease all 1s;
   }
 }
 
@@ -237,6 +240,11 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: ease all 1s;
+  }
+
+  .title-bar {
+    transform: rotate(-180deg);
     transition: ease all 1s;
   }
 }
