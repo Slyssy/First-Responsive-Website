@@ -78,7 +78,8 @@ h1 {
   font-size: 40px;
   font-weight: 500;
   color: var(--white);
-  transition: ease all 1s;
+  transform: rotateY(360deg);
+  transition: ease all 2s;
 }
 
 h2 {
@@ -145,6 +146,8 @@ p {
   /* %Element Selectors */
   h1 {
     font-size: 50px;
+    transform: rotateY(-360deg);
+    transition: ease all 2s;
   }
 
   header {
@@ -202,6 +205,8 @@ p {
   /* %Element Selectors */
   h1 {
     font-size: 60px;
+    transform: rotateY(360deg);
+    transition: ease all 2s;
   }
 
   header {
